@@ -8,7 +8,7 @@ function nestedTarget() {
 }
 
 function increateRankBy(n) {
-  var l
+  var lis = document.querySelectorAll('.ranked-list');
 }
 
 function deepestChild() {
