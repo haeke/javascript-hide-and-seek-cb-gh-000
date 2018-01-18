@@ -17,8 +17,9 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
+  //divs is a two dimentional array
   var divs = document.querySelectorAll('#grand-node');
-  
+  //items is a one dimensional array, the last element is the length -1 cause the first element is 0
   var items = divs[0].querySelectorAll('div');
   return items[items.length - 1];
 }
