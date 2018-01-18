@@ -6,3 +6,11 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   return document.getElementById('nested');
 }
+
+function increateRankBy(n) {
+  
+}
+
+function deepestChild() {
+  
+}
